@@ -249,6 +249,7 @@ int main(){
                     addUser(newUser, users); // add the new user to users vector
                     writeUsers(users); // write new user to file.
 
+		    loggedIn = true;
                     user = newUser;
                 }
             }
